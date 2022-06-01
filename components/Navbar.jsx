@@ -5,8 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import { pdf } from "../public/williams_resume.pdf";
-// import ResumeButton from "./ResumeButton";
+import pdf from "../public/williams_resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -74,11 +73,13 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <div>
-              <a href={pdf} download target="_blank">
+              <a
+                href={pdf}
                 download
-              </a>
+                target="_blank"
+                rel="noopener noreferrer"
+              />
             </div>
-            {/* <ResumeButton width={8} height={3} /> */}
 
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
