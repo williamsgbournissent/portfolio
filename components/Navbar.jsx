@@ -5,7 +5,6 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import pdf from "../public/williams_resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -72,15 +71,6 @@ const Navbar = () => {
             <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <div>
-              <a
-                href={pdf}
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            </div>
-
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
@@ -157,21 +147,15 @@ const Navbar = () => {
                   </li>
                 </Link>
               </ul>
-              <div className="pt-40">
-                <p className="uppercase tracking-widest text-sky-900 font-bold">
-                  Contact me!
-                </p>
-                <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                    <BsPersonLinesFill />
-                  </div>
-                </div>
+              <div className="pt-60">
+                <Link href="/#contact">
+                  <p
+                    onClick={() => setNav(false)}
+                    className="uppercase tracking-widest text-sky-900 font-bold underline"
+                  >
+                    Contact me!
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
