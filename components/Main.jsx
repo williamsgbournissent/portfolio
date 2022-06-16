@@ -58,7 +58,7 @@ const Main = () => {
               >
                 <BsPersonLinesFill />
               </div>
-              {isHovering && <h2>Resume</h2>}
+              {isHovering && <p>Resume</p>}
             </a>
           </div>
         </div>

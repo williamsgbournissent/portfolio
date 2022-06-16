@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
@@ -15,10 +13,12 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === "" ||
-      router.asPath === "" ||
-      router.asPath === "" ||
-      router.asPath === ""
+      router.asPath === "/cineflix" ||
+      router.asPath === "/Defi" ||
+      router.asPath === "/cryptolegacy" ||
+      router.asPath === "/ecoPlace" ||
+      router.asPath === "/mercadoliebre" ||
+      router.asPath === "/weather"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
@@ -45,9 +45,10 @@ const Navbar = () => {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
+          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
           : "fixed w-full h-20 z-[100]"
       }
     >
