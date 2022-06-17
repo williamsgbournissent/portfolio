@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "../public/assets/will-logo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/router";
 
@@ -54,12 +55,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/will-logo.png"
-            alt="/"
-            width="80"
-            height="70"
-          />
+          <Image src={Logo} width="80" height="70" alt="/" />
         </Link>
         <div>
           <ul className="hidden md:flex">
