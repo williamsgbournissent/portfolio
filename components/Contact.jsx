@@ -29,8 +29,8 @@ const Contact = () => {
                 </h2>
                 <p>Full-Stack Developer</p>
                 <p className="py-4">
-                  I am available for freelance, part-time or full-time jobs.
-                  Contact me and talk.
+                  I am available for full-time or part-time jobs. Contact me and
+                  talk.
                 </p>
               </div>
               <div>
@@ -71,7 +71,10 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form
+                method="POST"
+                action="https://getform.io/f/861d008a-42fc-4ea3-a232-77a28cf02359"
+              >
                 <div className="flex flex-col">
                   <label className="uppercase text-sm py-2">Name</label>
                   <input
