@@ -1,11 +1,12 @@
-import React from "react";
 import Image from "next/image";
 import JS from "../public/assets/skills/javascript.png";
 import Node from "../public/assets/skills/node.png";
-import Firebase from "../public/assets/skills/firebase.png";
 import Rct from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
 import Sql from "../public/assets/skills/sql.png";
+import TS from "../public/assets/skills/ts.png";
+import Mongo from "../public/assets/skills/mongo.png";
+import NX from "../public/assets/skills/next.png";
 
 const Skills = () => {
   return (
@@ -24,6 +25,27 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={NX} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>NextJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Mongo} width="150px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MongoDB</h3>
+              </div>
+            </div>
+          </div>
+
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -47,10 +69,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Firebase} width="64px" height="64px" alt="/" />
+                <Image src={TS} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
+                <h3>TypeScript</h3>
               </div>
             </div>
           </div>
@@ -70,7 +92,7 @@ const Skills = () => {
                 <Image src={Node} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Node js</h3>
+                <h3>NodeJS</h3>
               </div>
             </div>
           </div>

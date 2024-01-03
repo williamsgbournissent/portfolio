@@ -11,7 +11,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am studying Computer Science Engineering at UTN FRSF.
+            I am studying Systems Engineering at UTN FRSF.
           </p>
           <p className="py-2 text-gray-600">
             I consider myself an enthusiast of new technologies, passionate
