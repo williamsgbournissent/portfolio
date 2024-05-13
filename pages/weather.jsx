@@ -31,14 +31,14 @@ const crypto = () => {
             Users are able to search the weather in diferents citys.
           </p>
           <a
-            href="https://williamssb.github.io/weather/"
+            href="https://williamsgbournissent.github.io/weather/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/Williamssb/weather.git"
+            href="https://github.com/williamsgbournissent/weather.git"
             target="_blank"
             rel="noreferrer"
           >

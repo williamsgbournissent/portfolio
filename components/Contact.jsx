@@ -47,7 +47,7 @@ const Contact = () => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://github.com/Williamssb"
+                    href="https://github.com/williamsgbournissent"
                     rel="noopener noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

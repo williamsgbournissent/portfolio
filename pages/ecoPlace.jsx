@@ -31,7 +31,7 @@ const crypto = () => {
             server side, this e-commerce its not deployed.
           </p>
           <a
-            href="https://github.com/Williamssb/ecoPlace.git"
+            href="https://github.com/williamsgbournissent/ecoPlace.git"
             target="_blank"
             rel="noreferrer"
           >

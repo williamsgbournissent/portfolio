@@ -35,7 +35,7 @@ const crypto = () => {
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/Williamssb/mercadoliebrewb.git"
+            href="https://github.com/williamsgbournissent/mercadoliebrewb.git"
             target="_blank"
             rel="noreferrer"
           >

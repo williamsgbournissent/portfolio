@@ -30,14 +30,14 @@ const crypto = () => {
             This app was built using React JS and CSS is hosted on GitHub Pages.
           </p>
           <a
-            href="https://Williamssb.github.io/defi"
+            href="https://williamsgbournissent.github.io/defi/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/Williamssb/defi.git"
+            href="https://github.com/williamsgbournissent/defi.git"
             target="_blank"
             rel="noreferrer"
           >
