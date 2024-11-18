@@ -37,7 +37,11 @@ const Main = () => {
                 <FaGithub className="text-[23px]" />
               </div>
             </a>
-            <a href="/williams_resume.pdf" download target="_blank">
+            <a
+              href="/Resume - Williams Bournissent.pdf"
+              download
+              target="_blank"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <MdPictureAsPdf className="text-[23px]" />
               </div>
